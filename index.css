@@ -1,0 +1,25 @@
+th,
+td {
+	padding: 10px 5px 10px 15px;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+col.player {
+	background-color: #efefef;
+}
+
+thead tr th {
+	border-bottom: 1px solid;
+	background-color: #dedede;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #00000010;
+}
+
+tbody tr:hover {
+	background-color: lightblue;
+}
